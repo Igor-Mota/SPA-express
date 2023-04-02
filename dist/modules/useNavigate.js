@@ -1,0 +1,1 @@
+export const useNavigate=t=>{window.history.pushState({},"",t),window.dispatchEvent(new PopStateEvent("popstate"))};
